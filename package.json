@@ -1,0 +1,23 @@
+{
+  "name": "test-iq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csnotgo/test-IQ.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csnotgo/test-IQ/issues"
+  },
+  "homepage": "https://github.com/csnotgo/test-IQ#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

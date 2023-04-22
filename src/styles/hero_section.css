@@ -1,0 +1,144 @@
+/* -------------------hero section----------------- */
+
+.hero {
+  padding: 27px 15px 15px 15px;
+  height: calc(100vh - 46px);
+
+  text-align: center;
+  background-image: url(../images/hero_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-text {
+  margin-bottom: 14px;
+
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.hero-title {
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--accent);
+}
+
+.hero-box {
+  margin-top: 150px;
+  width: 100%;
+}
+
+.hero-descr-box {
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 286px;
+
+  text-align: center;
+}
+
+.hero-description {
+  font-family: "PT Serif";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.27;
+
+  color: var(--accent);
+}
+
+.desc-color {
+  color: var(--primaryText);
+}
+
+.hero-about {
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-bg {
+  width: 16px;
+  height: 16px;
+
+  z-index: 1;
+  position: fixed;
+  bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.hero-link {
+  margin-top: 4px;
+
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 1.37;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    font-size: 20px;
+  }
+  .hero-title {
+    font-size: 34px;
+  }
+  .hero-about {
+    margin-top: 47px;
+  }
+  .icon-bg {
+    width: 20px;
+    height: 20px;
+
+    bottom: 30px;
+  }
+  .hero-link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: calc(100vh - 60px);
+  }
+  .hero-text {
+    font-size: 24px;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .hero-descr-box {
+    max-width: 350px;
+  }
+  .hero-description {
+    font-size: 18px;
+  }
+  .hero-about {
+    margin-top: 70px;
+  }
+  .icon-bg {
+    width: 30px;
+    height: 30px;
+
+    bottom: 40px;
+  }
+  .hero-link {
+    font-size: 14px;
+  }
+}

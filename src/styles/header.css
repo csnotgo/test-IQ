@@ -1,0 +1,97 @@
+/* -----------------header---------------------- */
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 46px;
+  padding: 0 15px;
+
+  background-color: var(--bg);
+}
+
+.quiz-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-text {
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  text-transform: uppercase;
+
+  color: var(--accent);
+}
+
+.menu-desktop {
+  display: none;
+}
+
+/* ----------------------burger menu------------------ */
+
+.burger-menu {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  padding-top: 110px;
+  padding-left: 23px;
+
+  background: var(--bg);
+}
+
+.close-btn {
+  position: absolute;
+  top: 18px;
+  right: 13px;
+}
+
+.menu-item {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+  text-transform: uppercase;
+}
+
+.menu-item:last-child {
+  color: #f4ce0c;
+}
+
+.menu-item:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    padding-left: 40px;
+  }
+  .menu-item {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    height: 60px;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .menu-desktop {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .menu-item {
+    font-size: 16px;
+    text-transform: unset;
+  }
+  .menu-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

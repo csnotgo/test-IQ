@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;900&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.4d663569.css">
+  </head>
+
+  <body>
+    <!-- -----------------header----------------------------- -->
+
+    <header class="header" id="home">
+      <ul class="menu-desktop">
+        <li class="menu-item item-home"><a href="#home">Главная</a></li>
+        <li class="menu-item item-about"><a href="#about">Информация о тесте</a></li>
+        <li class="menu-item item-quiz"><a href="#quiz">Пройти тест</a></li>
+      </ul>
+      <button type="button" class="menu-btn">
+        <img src="/menu.99871271.png" alt="burger menu" width="24" height="16">
+      </button>
+      <div class="quiz-header hidden">
+        <img src="/brain_logo.26397f1e.png" alt="brain" width="46" height="46">
+        <p class="header-text">тест на определение IQ</p>
+      </div>
+    </header>
+
+    <!-- -----------------burger menu------------------------ -->
+
+    <div class="burger-menu hidden">
+      <button type="button" class="close-btn">
+        <img src="/close.d7789fe2.png" alt="close" width="28" height="28">
+      </button>
+
+      <ul class="menu">
+        <li class="menu-item item-home"><a href="#home">Главная</a></li>
+        <li class="menu-item item-about"><a href="#about">Информация о тесте</a></li>
+        <li class="menu-item item-quiz"><a href="#quiz">Пройти тест</a></li>
+      </ul>
+    </div>
+
+    <!-- -----------------home page-------------------------- -->
+
+    <div class="home-page">
+      <main class="container">
+        <section class="hero">
+          <p class="hero-text">Пройдите точный и быстрый</p>
+          <h1 class="hero-title">
+            тест на определение <br>
+            IQ
+          </h1>
+
+          <div class="hero-box">
+            <button type="button" class="button quiz-btn">пРойти тест</button>
+            <div class="hero-descr-box">
+              <p class="hero-description">
+                И получите рекомендации <br>
+                по развитию своего интеллекта
+              </p>
+              <p class="hero-description desc-color">и улучшению финансового благосостояния и личной жизни</p>
+            </div>
+
+            <div class="hero-about">
+              <button class="icon-bg">
+                <img src="/arrow_up.40c0b46c.png" alt="arrow up" width="8" height="8">
+              </button>
+              <a href="#about" class="hero-link">Подробнее</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="about" id="about">
+          <div class="about-card">
+            <img src="/quotes.6dd3fa0c.png" alt="quotes" class="quotes-icon-up">
+            <p class="about-card-text">
+              Профессиональный <br>
+              IQ-тест позволяет не только определить коэффициент вашего интеллекта, <br>
+              но и выработать список рекомендаций для повышения этого показателя.
+            </p>
+            <img src="/quotes.6dd3fa0c.png" alt="quotes" class="quotes-icon-down">
+          </div>
+          <div class="about-box">
+            <p class="about-text">
+              Также по результатам теста <br>
+              <b class="text-bold">вы получите</b> подробные <b class="text-bold">советы</b> по определению наиболее
+              перспективной <b class="text-bold">для вашего типа</b> <b>интеллекта</b>
+              <b class="text-bold">сферы деятельности</b>, <br>
+              которая принесет вам скорейший финансовый результат.
+            </p>
+            <img src="/brain.14a9ed8e.png" alt="brain" width="232" height="180" class="brain-img">
+            <button type="button" class="button quiz-btn">пpойти тест</button>
+          </div>
+        </section>
+
+        <section class="about-second">
+          <p class="about-second-text">
+            Прохождение теста займет у вас не более <span class="accent-text">12 минут</span> , а его результаты вы
+            сможете
+            <span class="accent-text">использовать всю жизнь.</span>
+          </p>
+          <div class="about-second-card">
+            <p class="card-text">
+              Профессиональная интерпретация и детально
+              <b>проработанные рекомендации </b> позволят вам качественно <b>изменить все аспекты своей жизни</b>: от
+              финансового до любовного.
+            </p>
+          </div>
+          <button type="button" class="button btn-about-second quiz-btn">пpойти тест</button>
+        </section>
+      </main>
+    </div>
+
+    <!-- -----------------quiz page-------------------------- -->
+
+    <div class="quiz-page hidden" id="quiz">
+      <main class="container">
+        <div class="range-box">
+          <div class="range">
+            <div class="range-progress"></div>
+          </div>
+        </div>
+
+        <!-- -----------------loading page----------------------- -->
+
+        <div class="loading-page hidden">
+          <h2 class="load-title">Oбработка результатов</h2>
+          <span class="loader"></span>
+          <div class="load-text-wrapper">
+            <p class="load-text">
+              Определение стиля мышления......... ......................................................
+            </p>
+          </div>
+        </div>
+        <!-- --------------------------------------------------- -->
+        <div class="quiz-box">
+          <div class="question-box">
+            <div class="question">
+              <h2 class="question-text"></h2>
+              <img src="/select_figure.f8e596db.jpg" alt="figure" width="185" height="235" class="question-img hidden" style="margin-top: 15px">
+              <img src="/geometric_figure.18785f04.jpg" alt="figure" width="173" height="115" class="question-img-geometric hidden" style="margin-top: 15px">
+              <img src="/star_figure.24410d31.jpg" alt="figure" width="228" height="207" class="question-img-star hidden" style="padding: 15px 0 24px">
+            </div>
+
+            <ul class="quiz-list"></ul>
+          </div>
+        </div>
+        <div class="button-box">
+          <button class="button btn-quiz disabled" type="button" disabled="">далее</button>
+        </div>
+      </main>
+    </div>
+
+    <!-- -----------------finish page------------------------ -->
+
+    <div class="finish-page hidden">
+      <main class="container">
+        <div class="finish-wrapper">
+          <h2 class="finish-title">Ваш результат рассчитан:</h2>
+          <p class="finish-text">
+            <span class="text-underline">Bы относитесь к 3%</span> респондентов, чей <br>
+            уровень интеллекта более чем на <br>
+            15 пунктов отличается от среднего в большую или меньшую сторону!
+          </p>
+        </div>
+        <section class="result">
+          <h2 class="result-title">Скорее получите свой результат!</h2>
+          <div class="result-card">
+            <p class="result-card-text">
+              В целях защиты персональных данных результат теста, их подробная интерпретация и рекомендации доступны в
+              виде голосового сообщения по звонку с вашего мобильного телефона
+            </p>
+          </div>
+          <div class="timer">
+            <p class="timer-text">
+              Звоните скорее, запись доступна всего <br>
+              <span class="timer-minutes">10:00</span> минут
+            </p>
+          </div>
+          <div class="button-call">
+            <img src="/call.9db380b6.png" alt="call" width="29" height="29">
+            <p class="call-text">Позвонить и прослушать результат</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- ------------------------result page----------------- -->
+
+    <div class="result-page hidden"></div>
+
+    <!-- -----------------footer----------------------------- -->
+
+    <footer class="footer">
+      <p class="copyright">&#169; 2019</p>
+    </footer>
+
+    <script src="/index.975ef6c8.js" defer=""></script>
+  </body>
+</html>

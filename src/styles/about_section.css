@@ -1,0 +1,97 @@
+/* -------------------about section----------------- */
+
+.about {
+  background-color: #ffffff;
+}
+
+.about-card {
+  position: relative;
+  height: 340px;
+  padding: 83px 28px 28px;
+
+  background-image: radial-gradient(
+      84.34% 50.29% at 48.75% 49.71%,
+      #2950c2 0%,
+      rgba(38, 91, 199, 0.96) 40.62%,
+      rgba(39, 98, 187, 0) 85.42%
+    ),
+    url("../images/about_bg.jpg");
+
+  background-size: cover;
+  text-align: center;
+}
+
+.quotes-icon-up {
+  position: absolute;
+  top: 43px;
+  left: 24px;
+}
+
+.quotes-icon-down {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+  transform: rotate(180deg);
+}
+
+.about-card-text {
+  font-family: "Yeseva One";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.28;
+}
+
+.about-box {
+  padding: 40px 11px;
+}
+
+.about-text {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272727;
+}
+
+.text-bold {
+  text-transform: uppercase;
+}
+
+.brain-img {
+  margin-top: 38px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about-card {
+    padding: 93px 50px 38px;
+  }
+  .about-card-text {
+    font-size: 22px;
+  }
+  .about-box {
+    padding: 60px 20px;
+  }
+  .about-text {
+    font-size: 18px;
+  }
+  .brain-img {
+    margin-top: 48px;
+    width: 300px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-card {
+    padding: 123px 60px 68px;
+  }
+  .about-text {
+    font-size: 20px;
+  }
+  .brain-img {
+    width: 400px;
+    height: 350px;
+  }
+}

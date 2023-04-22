@@ -1,0 +1,82 @@
+/* -------------about-second section---------------- */
+
+.about-second {
+  padding: 54px 12px 27px;
+  background-image: url("../images/lightning_left.png"), url("../images/lightning_right.png");
+  background-size: 165px 185px, 165px 185px;
+  background-repeat: no-repeat;
+  background-position: right 70, 0 bottom;
+}
+
+.about-second-text {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.33;
+}
+
+.accent-text {
+  color: var(--accent);
+}
+
+.about-second-card {
+  margin-top: 14px;
+  padding: 30px 14px;
+
+  background: rgba(243, 243, 242, 0.8);
+  border-radius: 20px;
+}
+
+.card-text {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+
+  color: #181818;
+}
+
+.btn-about-second {
+  margin-top: 34px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: var(--primaryText);
+}
+
+@media screen and (min-width: 768px) {
+  .about-second {
+    padding: 74px 20px 47px;
+  }
+  .about-second-text {
+    font-size: 18px;
+  }
+  .about-second-card {
+    margin-top: 30px;
+    padding: 50px 20px;
+  }
+  .card-text {
+    font-size: 18px;
+  }
+  .btn-about-second {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-second {
+    padding: 84px 40px 67px;
+    text-align: center;
+  }
+  .about-second-text {
+    font-size: 22px;
+  }
+  .about-second-card {
+    margin-top: 50px;
+    padding: 50px 20px;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .btn-about-second {
+    margin-top: 70px;
+  }
+}
