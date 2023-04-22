@@ -5,7 +5,7 @@
   height: calc(100vh - 46px);
 
   text-align: center;
-  background-image: url(../images/hero_bg.png);
+  background-image: url("../images/hero_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
