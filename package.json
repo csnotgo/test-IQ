@@ -2,10 +2,6 @@
   "name": "test-iq",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test-IQ/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/csnotgo/test-IQ.git"
@@ -15,9 +11,5 @@
   "bugs": {
     "url": "https://github.com/csnotgo/test-IQ/issues"
   },
-  "homepage": "https://github.com/csnotgo/test-IQ#readme",
-  "devDependencies": {
-    "parcel": "^2.8.3",
-    "posthtml-include": "^1.7.4"
-  }
+  "homepage": "https://github.com/csnotgo/test-IQ#readme"
 }
