@@ -1,7 +1,7 @@
 import { refs } from "./refs.js";
 import { hide, show } from "./utils.js";
 import { timer } from "./timer.js";
-import quiz from "../../quiz.json";
+import quiz from "../../quiz.json" assert { type: "json" };
 
 export const resetMarkup = () => {
   refs.list.innerHTML = "";
