@@ -1,6 +1,6 @@
-import { refs } from "./refs";
-import { hide, show } from "./utils";
-import { createMarkup, resetMarkup, createResultPageMarkup } from "./markup";
+import { refs } from "./refs.js";
+import { hide, show } from "./utils.js";
+import { createMarkup, resetMarkup, createResultPageMarkup } from "./markup.js";
 
 refs.buttonToTop.addEventListener("click", () => window.scrollTo(top));
 refs.menuBtn.addEventListener("click", showBurgerMenu);
