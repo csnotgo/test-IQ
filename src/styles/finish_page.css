@@ -4,7 +4,7 @@
   background-image: url("../images/lightning_left_rotate.png"), url("../images/lightning_right.png");
   background-size: 165px 185px, 165px 185px;
   background-repeat: no-repeat;
-  background-position: right 380, 0 bottom;
+  background-position: right 380px, 0 bottom;
 }
 
 .finish-wrapper {
