@@ -1,4 +1,4 @@
-import { getElem } from "./utils";
+import { getElem } from "./utils.js";
 
 export const refs = {
   homePage: getElem(".home-page"),
