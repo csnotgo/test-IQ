@@ -1,14 +1,14 @@
-import { refs } from "./refs";
-import { hide, show } from "./utils";
-import { createMarkup, resetMarkup, createResultPageMarkup } from "./markup";
+import { refs } from "./js/refs.js";
+import { hide, show } from "./js/utils.js";
+import { createMarkup, resetMarkup, createResultPageMarkup } from "./js/markup.js";
 
 refs.buttonToTop.addEventListener("click", () => window.scrollTo(top));
 refs.menuBtn.addEventListener("click", showBurgerMenu);
 refs.closeBtn.addEventListener("click", hideBurgerMenu);
 refs.menu.addEventListener("click", hideBurgerMenu);
-refs.itemHome.addEventListener("click", showHomePage);
-refs.itemAbout.addEventListener("click", showHomePage);
-refs.itemQuiz.addEventListener("click", showQuizPage);
+refs.itemHome.forEach((elem) => elem.addEventListener("click", showHomePage));
+refs.itemAbout.forEach((elem) => elem.addEventListener("click", showHomePage));
+refs.itemQuiz.forEach((elem) => elem.addEventListener("click", showQuizPage));
 refs.quizBtn.forEach((elem) => elem.addEventListener("click", showQuizPage));
 refs.list.addEventListener("click", onItemsClick);
 refs.button.addEventListener("click", onButtonClick);

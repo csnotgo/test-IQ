@@ -1,16 +1,16 @@
-import { getElem } from "./utils";
+import { getElem, getAllElems } from "./utils.js";
 
 export const refs = {
   homePage: getElem(".home-page"),
   buttonToTop: getElem(".icon-bg"),
-  quizBtn: document.querySelectorAll(".quiz-btn"),
+  quizBtn: getAllElems(".quiz-btn"),
   menuBtn: getElem(".menu-btn"),
   burgerMenu: getElem(".burger-menu"),
   closeBtn: getElem(".close-btn"),
   menu: getElem(".menu"),
-  itemHome: getElem(".item-home"),
-  itemAbout: getElem(".item-about"),
-  itemQuiz: getElem(".item-quiz"),
+  itemHome: getAllElems(".item-home"),
+  itemAbout: getAllElems(".item-about"),
+  itemQuiz: getAllElems(".item-quiz"),
 
   quizPage: getElem(".quiz-page"),
   header: getElem(".quiz-header"),
