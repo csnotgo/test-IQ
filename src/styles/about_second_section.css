@@ -5,7 +5,7 @@
   background-image: url("../images/lightning_left.png"), url("../images/lightning_right.png");
   background-size: 165px 185px, 165px 185px;
   background-repeat: no-repeat;
-  background-position: right 70, 0 bottom;
+  background-position: right 70px, 0 bottom;
 }
 
 .about-second-text {
