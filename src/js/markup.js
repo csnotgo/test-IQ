@@ -1,6 +1,6 @@
-import { refs } from "./refs";
-import { hide, show } from "./utils";
-import { timer } from "./timer";
+import { refs } from "./refs.js";
+import { hide, show } from "./utils.js";
+import { timer } from "./timer.js";
 import quiz from "../../quiz.json";
 
 export const resetMarkup = () => {
