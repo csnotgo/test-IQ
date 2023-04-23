@@ -1,4 +1,4 @@
-import { refs } from "./refs";
+import { refs } from "./refs.js";
 
 const addLeadingZero = (value) => String(value).padStart(2, "0");
 
